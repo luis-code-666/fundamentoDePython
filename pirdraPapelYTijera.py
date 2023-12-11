@@ -1,6 +1,7 @@
 import random
 
-usuario = input('Introduce piedra, papel o tijera ')
+usuario_minuscula = input('Introduce piedra, papel o tijera ')
+usuario = usuario_minuscula.lower()
 #computadora = 'tijera'
 
 def seleccionar_elemento():
