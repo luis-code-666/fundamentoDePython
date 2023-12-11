@@ -23,3 +23,13 @@ if stock >= 100 and stock <=1000:
 else:
     print("el stock es incorrecto")
 '''
+###################################
+#################################### si un numero es par o impar
+
+numero = int(input('Digite un numero '))
+
+if numero % 2 == 0:
+    print('Es par! ')
+else:
+    print('Es impar! ')
+
